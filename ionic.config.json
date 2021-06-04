@@ -1,5 +1,7 @@
 {
   "name": "appConfio",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

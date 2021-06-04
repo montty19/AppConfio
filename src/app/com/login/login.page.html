@@ -1,0 +1,18 @@
+<ion-content> 
+  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>
+  <ion-item>
+    <ion-label position="floating">Correo Electrónico</ion-label>
+    <ion-input type="text" [(ngModel)]="email" name="email"></ion-input>
+</ion-item>
+<br><br><br><br>
+<ion-item>
+  <ion-label position="floating">Contraseña</ion-label>
+  <ion-input [(ngModel)]="password" type="password" name="contraseña"></ion-input>
+</ion-item>
+<br> <br><br><br>
+<ion-button (click)="OnSubmitLogin()" expand="block">INGRESAR</ion-button>
+<br>
+<center>
+<p  routerLink="/regpassword">Crear Cuenta</p>
+</center>
+</ion-content>
